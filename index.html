@@ -9,5 +9,37 @@
 </head>
 <body>
     
+    <div id="root"> <!-- Punto montaje de App -->
+        <div> 
+            <div id="app"> <!-- App -->
+                <div class="contenedor"> <!-- Layout general -->
+                    <div tabindex="-1" class="subcontenedor"> <!-- Contexto de overlays y paneles -->
+                        <div id="wa-popovers-bucket"></div> <!-- Punto montaje paneles para componentes dinamicos-->
+                                                            <!-- El bucket es el contenedor donde montamos elementos dinamicos -->
+                                                            <!-- El popover son las ventanas -->
+
+                        <span class></span>
+                        <span class></span>
+                        <span class></span>
+                        <span class></span>
+                        <span class></span>
+                        <!-- Los span pueden ser utilizados para procesos de lectura, carga/descarga, recolectar datos, analizar, etc... -->
+                        <div id="expressions-palen-container">
+                            <span></span>
+                        </div> <!--En <span> se cargan los emojis al abrir el panel de emojis. Es un punto de referencia y carga -->
+                        <span class></span>
+                        <span class></span>
+                        <div class="contenedor"> <!-- Aqui ya empezamos a desarrollar el HTML -->
+                            <p>hola mundo</p> 
+                        </div>
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
